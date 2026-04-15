@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary_dark"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:elevation="2dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/toolbar_background"
+
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:id="@+id/BackLayaout"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/back">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:fontFamily="@font/solaimanlipi"
+                    android:gravity="center"
+                    android:text="@string/boyenglish"
+                    android:textSize="20sp"
+                    android:textColor="@color/titel_text_color"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/boyenglish1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/name_linear_background"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/blue_circle"
+            android:padding="10dp"
+            android:src="@drawable/boy">
+
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/solaimanlipi"
+                android:gravity="center_vertical"
+                android:text="@string/boyenglishname1"
+                android:textColor="@color/text_color"
+                android:textSize="19sp">
+
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/boyenglish2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/name_linear_background"
+        android:gravity="center_vertical"
+         android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/blue_circle"
+            android:padding="10dp"
+            android:src="@drawable/boy">
+
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/solaimanlipi"
+                android:gravity="center_vertical"
+                android:text="@string/boyenglishname2"
+                android:textColor="@color/text_color"
+                android:textSize="19sp">
+
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/boyenglish3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/name_linear_background"
+        android:gravity="center_vertical"
+         android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/blue_circle"
+            android:padding="10dp"
+            android:src="@drawable/boy">
+
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/solaimanlipi"
+                android:gravity="center_vertical"
+                android:text="@string/boyenglishname3"
+                android:textColor="@color/text_color"
+                android:textSize="19sp">
+
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/boy_english_adview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="MEDIUM_RECTANGLE"
+                    ads:adUnitId="@string/Admob_banner">
+                </com.google.android.gms.ads.AdView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+

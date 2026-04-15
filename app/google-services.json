@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "516433560863",
+    "project_id": "boy-name-2020-81325",
+    "storage_bucket": "boy-name-2020-81325.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516433560863:android:28aaae07f99c24b8855c2a",
+        "android_client_info": {
+          "package_name": "com.yeasinrabbi.boy_name_2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516433560863-bosptp9v5pkvtgqhv3iok5qf6ire498e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJpBPJuJvU7cDaF9zoPOkhnByxotfTqtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516433560863-bosptp9v5pkvtgqhv3iok5qf6ire498e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

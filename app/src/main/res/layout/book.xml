@@ -1,0 +1,89 @@
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_split_books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="30dp"
+        android:background="#e0e0e0"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:id="@+id/linear_split_books_1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/textview12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="গ্রন্থ সংগ্রহ"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textview13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(টেক্সট ফরমেট)"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_split_books_2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#e0e0e0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/textview14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পিডিএফ সংগ্রহ"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textview15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(পিডিএফ ফরমেট)"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="none"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:padding="5dp" />
+
+
+
+
+</LinearLayout>

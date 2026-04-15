@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:scaleType="center"
+                android:src="@drawable/book" />
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="চল্লিশ হাদিস"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:scaleType="center"
+                android:src="@drawable/book" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listview_hadith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="none"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:padding="5dp" />
+
+            <ListView
+                android:id="@+id/listview_munazat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="none"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:padding="5dp" />
+
+            <ListView
+                android:id="@+id/listview_manzil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="none"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:padding="5dp" />
+
+            <ListView
+                android:id="@+id/listview_asmaul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="none"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:padding="5dp" />
+
+            <ListView
+                android:id="@+id/listview_qasida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="none"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:padding="5dp" />
+
+            <ListView
+                android:id="@+id/listview_parashmani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="none"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:padding="5dp" />
+
+            <ListView
+                android:id="@+id/listview_ebooks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="none"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="ca-app-pub-8700028746384810/9386629147" />
+
+        <LinearLayout
+            android:id="@+id/linear_for_arabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="বই থেকে আরবিসহ পডুন"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
